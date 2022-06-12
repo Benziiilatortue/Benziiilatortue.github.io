@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-section{
+.section1{
     background: linear-gradient(
     136.16deg,
     rgba(91,135,75,0.97) 12.91%,
@@ -15,14 +15,14 @@ section{
     height: 100vh;
 }
 
-section .container{
+.section1 .container{
     max-width: 1100px;
     margin: 0 auto;
     padding-top: 50px;
     height: 100%;
 }
 
-section .container header,
+.section1 .container header,
 section .container header .left{
     display: flex;
     flex-direction: row;
@@ -30,26 +30,26 @@ section .container header .left{
     align-items: center;
 }
 
-section .container nav{
+.section1 .container nav{
    display: flex;
     flex-direction: row;
 }
 
-section .container nav a{
+.section1 .container nav a{
     margin-left: 50px;
     color: white;
     font-size: 14px;
     align-items: center;
 }
 
-section .container nav a:nth-child(5){
+.section1 .container nav a:nth-child(5){
     font-weight: 500;
     border: white solid 1px;
     border-radius: 41px;
     padding: 10px 20px;
 }
 
-section .container .middle-content{
+.section1 .container .middle-content{
     height: 80%;
     display: flex;
     flex-direction: row;
@@ -58,7 +58,7 @@ section .container .middle-content{
     margin-top: 10px;
 }
 
-section .container .middle-content .left2{
+.section1 .container .middle-content .left2{
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@ section .container .middle-content .left2{
     position: relative;
 }
 
-section .container .middle-content .left2::before{
+.section1 .container .middle-content .left2::before{
     content: "";
     position: absolute;
     background-image: url("img/img/shadow.png");
@@ -75,7 +75,7 @@ section .container .middle-content .left2::before{
 }
 
 
-section .container .middle-content .left2 .infos{
+.section1 .container .middle-content .left2 .infos{
     position: absolute;
     display: flex;
     flex-direction: row;
@@ -84,7 +84,7 @@ section .container .middle-content .left2 .infos{
 }
 
 
-section .container .middle-content .left2 .infos .infos-bloc-left{
+.section1 .container .middle-content .left2 .infos .infos-bloc-left{
     display: flex;
     flex-direction: column;
     align-self: flex-end;
@@ -92,7 +92,7 @@ section .container .middle-content .left2 .infos .infos-bloc-left{
     margin-right: 20px;
 }
 
-section .container .middle-content .left2 .infos .infos-bloc-left span:nth-child(1){
+.section1 .container .middle-content .left2 .infos .infos-bloc-left span:nth-child(1){
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -100,7 +100,7 @@ section .container .middle-content .left2 .infos .infos-bloc-left span:nth-child
     color: white;
 }
 
-section .container .middle-content .left2 .infos .infos-bloc-left span:nth-child(2){
+.section1 .container .middle-content .left2 .infos .infos-bloc-left span:nth-child(2){
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -108,11 +108,11 @@ section .container .middle-content .left2 .infos .infos-bloc-left span:nth-child
     color: white;
 }
 
-section .container .middle-content .right2{
+.section1 .container .middle-content .right2{
     padding-left: 100px;
 }
 
-section .container .middle-content .right2 .block-text span{
+.section1 .container .middle-content .right2 .block-text span{
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -122,7 +122,7 @@ section .container .middle-content .right2 .block-text span{
     color: white;
 }
 
-section .container .middle-content .right2 .block-text h1{
+.section1 .container .middle-content .right2 .block-text h1{
     font-style: normal;
     font-weight: 900;
     font-size: 68px;
@@ -131,7 +131,7 @@ section .container .middle-content .right2 .block-text h1{
     color: white;
 }
 
-section .container .middle-content .right2 .block-text p{
+.section1 .container .middle-content .right2 .block-text p{
     margin: 25px 0px;
     font-style: normal;
     font-weight: 400;
@@ -140,7 +140,7 @@ section .container .middle-content .right2 .block-text p{
     color: white;
 }
 
-section .container .middle-content .right2 .bloc-boutons{
+.section1 .container .middle-content .right2 .bloc-boutons{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -148,7 +148,7 @@ section .container .middle-content .right2 .bloc-boutons{
     margin-top: 50px;
 }
 
-section .container .middle-content .right2 .bloc-boutons .book-now{
+.section1 .container .middle-content .right2 .bloc-boutons .book-now{
     width: 170px;
     height: 83px;
     display: flex;
@@ -158,7 +158,7 @@ section .container .middle-content .right2 .bloc-boutons .book-now{
     background-size: 100% 100%;
 }
 
-section .container .middle-content .right2 .bloc-boutons .book-now a {
+.section1 .container .middle-content .right2 .bloc-boutons .book-now a {
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -166,20 +166,44 @@ section .container .middle-content .right2 .bloc-boutons .book-now a {
     color: #303056;
 }
 
-section .container .middle-content .right2 .bloc-boutons .track-order a{
+.section1 .container .middle-content .right2 .bloc-boutons .track-order a{
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
     color: white;
 }
-section .container .bottom-content{
+
+.section1 .container .middle-content .right2 .alignement-points{
+    position: absolute; top: 430px; left: 1817px;
+}
+
+.section1 .container .middle-content .right2 .point1{
+    position: absolute; top: 458px; left: 1817px;
+}
+
+.section1 .container .middle-content .right2 .point2{
+    position: absolute; top: 486px; left: 1817px;
+}
+
+.section1 .container .middle-content .right2 .point3{
+    position: absolute; top: 514px; left: 1817px;
+}
+
+.section1 .container .middle-content .right2 .point4{
+    position: absolute; top: 542px; left: 1817px;
+}
+
+
+
+
+.section1 .container .bottom-content{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-section .container .bottom-content .all-ghost-btn {
+.section1 .container .bottom-content .all-ghost-btn {
     height: 90px;
     width: 190px;
     background-image: url("img/svg/btn-svg-not-filled.svg");
@@ -189,62 +213,93 @@ section .container .bottom-content .all-ghost-btn {
     align-items: center;
 }
 
-section .container .bottom-content .all-ghost-btn a {
+.section1 .container .bottom-content .all-ghost-btn a {
     color: white;
 }
 
+.section1 .container .bottom-content .souris2 {
+    position: absolute;
+    width: 34px;
+    height: 54px;
+    left: 1800px;
+    top: 830px;
+}
+
+.section1 .container .bottom-content .vector2 {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    left: 1817px;
+    top: 845px;
+}
+
+.section1 .container .bottom-content .texte_souris2 {
+    position: absolute;
+    width: 74px;
+    height: 32px;
+    left: 1783px;
+    top: 895px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+}
+
+
 @media screen and (max-width: 1100px){
 
-    section {
+    .section1 {
         height: 100%;
     }
 
-    section .container{
+    .section1 .container{
         padding: 50px 50px;
     }
 
-    section .container .middle-content{
+    .section1 .container .middle-content{
         flex-direction: column-reverse;
         margin-top: 50px;
     }
 
-    section .container .middle-content .right2{
+    .section1 .container .middle-content .right2{
         padding-left: 0px;
         max-width: 800px;
     }
 
-    section .container .middle-content .left2{
+    .section1 .container .middle-content .left2{
         margin-top: 50px;
     }
 }
 
 @media screen and (max-width: 900px){
 
-    section .container nav{
+    .section1 .container nav{
         display: none;
     }
 }
 
 @media screen and (max-width: 600px){
 
-    section .container .middle-content .right2 .block-text h1{
+    .section1 .container .middle-content .right2 .block-text h1{
         font-size: 45px;
     }
 
-    section .container .middle-content .left2 img{
+    .section1 .container .middle-content .left2 img{
         width: 100%;
     }
 
-    section .container .middle-content .right2{
+    .section1 .container .middle-content .right2{
         padding-left: 0px;
         width: 95%;
     }
 
-    section .container .middle-content .left2 .infos{
+    .section1 .container .middle-content .left2 .infos{
         display: none;
     }
 
-    section .container .bottom-content {
+    .section1 .container .bottom-content {
         margin-top: 75px;
     }
 
@@ -252,9 +307,190 @@ section .container .bottom-content .all-ghost-btn a {
 
 @media screen and (max-width: 375px){
 
-    section .container .middle-content .bloc-boutons {
+    .section1 .container .middle-content .bloc-boutons {
         flex-direction: column;
         margin-top: 25px;
     }
 }
+
+.section2{
+    background: linear-gradient(136.16deg,
+    rgba(46, 9, 22, 0.97) 12.91%,
+    rgba(32, 10, 43, 0.69) 87.68%);
+    height: 100vh;
+}
+
+.section2 .container2{
+    padding-top: 50px;
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section2 .header-2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section2 .header-2 .right_s2 nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.section2 .header-2 .right_s2 nav a {
+    margin-left: 50px;
+    color: #9F4058;
+}
+
+.section2 .header-2 .right_s2 nav a:nth-child(5){
+    border: #9F4058 1px solid;
+    border-radius: 41px;
+    padding: 10px 20px;
+}
+
+.section2 .container2 .middle-content2 {
+    height: 80%;
+    border: red 1px solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.section2 .container2 .middle-content2 .lefts2-2{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .container2 .middle-content2 .rights2-2{
+    padding-left: 100px;
+    border: red 1px solid;
+}
+
+
+
+
+.section2 .container2 .middle-content2 .rights2-2 .block-text2{
+
+}
+
+
+.section2 .container2 .middle-content2 .rights2-2 .bloc-boutons2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.section2 .container2 .middle-content2 .rights2-2 .bloc-boutons2 .book-now2{
+  background-image: url("img/svg/Rectangle 10.png");
+    background-size: 100% 100%;
+    height: 83px;
+    width: 169px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .container2 .middle-content2 .rights2-2 .bloc-boutons2 .book-now2 a{
+    color: white;
+}
+
+
+.section2 .container2 .middle-content2 .rights2-2 .bloc-boutons2 .his-track-order2 a{
+    color: white;
+}
+
+.section2 .container2 .middle-content2 .rights2-2 .alignement-points2{
+    position: absolute; top: 1428px; left: 1817px;
+}
+
+.section2 .container2 .middle-content2 .rights2-2 .point5{
+    position: absolute; top: 1400px; left: 1817px;
+}
+
+.section2 .container2 .middle-content2 .rights2-2 .point6{
+    position: absolute; top: 1456px; left: 1817px;
+}
+
+.section2 .container2 .middle-content2 .rights2-2 .point7{
+    position: absolute; top: 1484px; left: 1817px;
+}
+
+.section2 .container2 .middle-content2 .rights2-2 .point8{
+    position: absolute; top: 1512px; left: 1817px;
+}
+
+
+
+
+.section2 .container2 .bottom-content2 {
+    border: blue 1px solid;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .container2 .bottom-content2 .see-all-ghost-btn{
+    height: 90px;
+    width: 190px;
+    background-image: url("img/svg/Rectangle 9.png");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section2 .container2 .bottom-content2 .see-all-ghost-btn a{
+    color: white;
+}
+
+.section2 .container2 .bottom-content2 .souris {
+    position: absolute;
+    width: 34px;
+    height: 54px;
+    left: 1800px;
+    top: 1800px;
+}
+
+.section2 .container2 .bottom-content2 .vector {
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    left: 1817px;
+    top: 1820px;
+}
+
+.section2 .container2  .bottom-content2 .texte_souris{
+    position: absolute;
+    width: 74px;
+    height: 32px;
+    left: 1783px;
+    top: 1865px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 120%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
